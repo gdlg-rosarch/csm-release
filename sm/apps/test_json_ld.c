@@ -8,13 +8,13 @@ int main() {
 		if(!(ld = json_to_ld(jo))) {
 			fprintf(stderr, "Could not transform to laser_data:\n\n");
 			fprintf(stderr, "-----\n");
-			fputs(json_object_to_json_string(jo),stderr);
+			fprintf(stderr, json_object_to_json_string(jo));
 			fprintf(stderr, "-----\n");
 			continue;
 		}
 		
 		jo = ld_to_json(ld);
-		puts(json_object_to_json_string(jo));
+		printf(json_object_to_json_string(jo));
 		printf("\n");
 	}
 	
