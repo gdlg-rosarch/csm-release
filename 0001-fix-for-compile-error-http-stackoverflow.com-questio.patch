@@ -1,4 +1,4 @@
-From d7a07b0f56702e093187a5ade2f2fe7b0f4ff0f5 Mon Sep 17 00:00:00 2001
+From 78f9374ac7e3c593f0ffe24e56bdf3acd9725f31 Mon Sep 17 00:00:00 2001
 From: Kei Okada <kei.okada@gmail.com>
 Date: Sun, 8 Nov 2015 13:34:31 +0900
 Subject: [PATCH] fix for compile error,
@@ -58,5 +58,5 @@ index 04d3338..48ca30b 100644
  	"Generic options: \n"
  	"  -help          Displays this help.\n"
 -- 
-2.7.4
+2.17.0
 
